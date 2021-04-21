@@ -1,0 +1,41 @@
+.preview-about {
+    background-color: aqua;
+  }
+  
+  
+  .firstLine {
+      text-shadow: 2px 2px 2px rgb(228, 20, 20);
+      font-size: 500%;
+    }
+  
+    .secondLine {
+      font-size: 300%;
+    }
+  
+    .profileText {
+      font-size: 150%;
+    }
+  
+    .profile-description-container {
+      width: 60%;
+      z-index: 2;
+    }
+  
+    .preview-project {
+        background-color: brown;
+
+    }
+
+    .projectFirstLine {
+        font-size: 300%;
+    }
+
+    .projectText {
+        font-size: 200%;
+    }
+
+    .home-contact {
+        background-color: chartreuse;
+    }
+
+    
