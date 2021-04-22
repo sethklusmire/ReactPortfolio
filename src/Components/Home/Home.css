@@ -38,4 +38,6 @@
         background-color: chartreuse;
     }
 
-    
+    .home {
+      animation: .8s ease-out 0s 1 fadeIn;
+    }
