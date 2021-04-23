@@ -1,0 +1,133 @@
+@keyframes leftToRight {
+    0% {
+      transform: translateX(-70%);
+    }
+    100% {
+      transform: translateX(100vw);
+    }
+  }
+  .preview-about {
+    position: relative;
+    overflow: hidden;
+    animation: .4s ease-out 0s  slideInFromBottom;
+    background-color: #bd9fec;
+    color: #ffffff;
+  }
+  
+  .profile-image-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+    margin-left: 60px;
+  }
+  .body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: #252121;
+    width: 325px;
+    height: 325px;
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+  
+  .profile-image {
+    height: 275px;
+    width: 100%;
+    border-left: 30px solid #828282;
+    border-right: 30px solid #828282;
+    border-top: 20px solid #828282;
+    border-bottom: 20px solid #828282;
+    
+    
+  }
+  .profile-title {
+    color: black;
+    -webkit-text-fill-color: white;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    font-size: 2.7em;
+    font-weight: bold;
+    font-family: 'Press Start 2P', cursive;
+    /* z-index: 2; */
+  }
+  .profile-subtitle {
+    /* color: #c6c6c6; */
+    color: black;
+    -webkit-text-fill-color: #FF887B;
+    -webkit-text-stroke-width: .2px;
+    -webkit-text-stroke-color: black;
+    font-size: 2.3em;
+    margin-top: 30px;
+    font-weight: bold;
+    /* z-index: 2; */
+  }
+  .profile-text {
+    line-height: 35px;
+    margin-top: 20px;
+    font-size: 1.3em;
+    font-weight: bold;
+  }
+  .inner-about {
+    display: flex;
+    /* border-top: 2px solid #b9b9b9; */
+  }
+  .profile-description-container {
+    width: 70%;
+    z-index: 2;
+  }
+  .profile-buttons {
+    display: flex;
+    margin-top: 40px;
+  }
+  .project-view {
+    margin-right: 20px;
+  }
+  @media (max-width: 767px) {
+    
+    .inner-about {
+      flex-direction: column;
+    }
+    .tv {
+      width: 100%;
+      margin: 0 auto;
+    }
+    .profile-description-container {
+      width: 100%;
+      order: 2;
+    }
+    .profile-image-container {
+      width: auto;
+      margin: 0;
+    }
+    .profile-title {
+      font-size: 1.2em;
+      margin-top: 40px;
+      color: black;
+      -webkit-text-fill-color: black;
+      -webkit-text-stroke-width: 0;
+      -webkit-text-stroke-color: black;
+    }
+    .profile-subtitle {
+      font-size: 1.3em;
+      margin-top: 20px;
+    }
+    .profile-text {
+      line-height: 30px;
+      font-size: 1em;
+    }
+    .profile-buttons {
+      flex-direction: column;
+      margin-top: 40px;
+      width: 100%;
+    }
+    .profile-buttons button:nth-child(1n) {
+      width: 100%;
+      margin: 5px auto;
+      padding: 16px 16px;
+    }
+    .project-view {
+      margin-right: 0px;
+    }
+  }

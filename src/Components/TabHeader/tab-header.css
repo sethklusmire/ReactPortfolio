@@ -1,0 +1,31 @@
+.tab-header {
+    /* border-bottom: 2px solid #b9b9b9; */
+    font-family: 'Press Start 2P', cursive;
+    /* color: #fff; */
+    background-color: #bd9fec;
+    animation: .4s ease-out 0s 1 slideInFromBottom;
+  }
+  .tab-header-title {
+    text-align: center;
+    font-size: 3em;
+    font-weight: bold;
+    color: black;
+    -webkit-text-fill-color: #fff;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+  }
+  .tab-header-subtitle {
+    text-align: center;
+    /* color: #c6c6c6; */
+    color: #f0f0f0;
+    font-size: 1.6em;
+    margin-top: 30px;
+  }
+  @media (max-width: 767px) {
+    .tab-header-title {
+      font-size: 2em;
+    }
+    .tab-header-subtitle {
+      font-size: .8em;
+    }
+  }

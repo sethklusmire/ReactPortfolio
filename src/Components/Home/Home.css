@@ -1,43 +1,53 @@
 .preview-about {
-    background-color: aqua;
-  }
-  
-  
-  .firstLine {
-      text-shadow: 2px 2px 2px rgb(228, 20, 20);
-      font-size: 500%;
-    }
-  
-    .secondLine {
-      font-size: 300%;
-    }
-  
-    .profileText {
-      font-size: 150%;
-    }
-  
-    .profile-description-container {
-      width: 60%;
-      z-index: 2;
-    }
-  
-    .preview-project {
-        background-color: brown;
+  background-color: rgb(131, 255, 255);
+}
 
-    }
+.firstLine {
+  position: absolute;
+  top: 25%;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  margin: auto;
+  opacity: 1;
+  text-align: left;
+}
 
-    .projectFirstLine {
-        font-size: 300%;
-    }
+.secondLine {
+  font-size: 1.3em;
+    margin-top: 20px;
+}
 
-    .projectText {
-        font-size: 200%;
-    }
+.profileText {
+  font-size: 150%;
+  position: static;
+  top: 50%;
+  width: 100%;
+  text-align: left;
+}
 
-    .home-contact {
-        background-color: chartreuse;
-    }
+.profile-description-container {
+  width: 100%;
+    order: 2;
+  
+}
 
-    .home {
-      animation: .8s ease-out 0s 1 fadeIn;
-    }
+.preview-project {
+  background-color: rgb(228, 192, 192);
+}
+
+.projectFirstLine {
+  font-size: 300%;
+}
+
+.projectText {
+  font-size: 200%;
+}
+
+.home-contact {
+  background-color: chartreuse;
+}
+
+.home {
+  animation: 0.8s ease 0s 1 fadeIn;
+}

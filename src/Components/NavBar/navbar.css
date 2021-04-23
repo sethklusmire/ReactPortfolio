@@ -1,4 +1,4 @@
-@keyframes slideInFromBottom {
+@keyframes slideInFromTop {
     0% {
       transform: translateY(-30px);
     }
@@ -36,9 +36,9 @@
     flex-direction: column;
     height: 100px;
     /* border-bottom: solid 2px #000; */
-    animation: .4s ease-out 0s 1 slideInFromBottom;
+    animation: .4s ease-out 0s 1 slideInFromTop;
     font-family: "Lucida Console", "Courier New", monospace;
-    background-color: #74ca4b;
+    background-color: #7bcaff;
     padding: 0 50px;
   }
   .navbar-container {
@@ -85,7 +85,7 @@
   .nav-item {
     margin-left: 50px;
     text-decoration: none;
-    color: #ab0cf5;
+    color: #000000;
     font-size: 1.1em;
     transition: .15s ease;
   }

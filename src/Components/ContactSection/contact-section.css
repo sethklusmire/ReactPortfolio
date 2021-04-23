@@ -1,0 +1,17 @@
+.contact-title {
+    text-align: center;
+    font-size: 2em;
+    padding-bottom: 60px;
+    font-family: 'Press Start 2P', cursive;
+  }
+  .contact-button {
+    text-decoration: none;
+  }
+  .inner-contact {
+    text-align: center;
+  }
+  @media (max-width: 767px) {
+    .contact-title {
+      font-size: 1.5em;
+    }
+  }

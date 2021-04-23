@@ -1,0 +1,28 @@
+.my-button {
+    font-size: 1em;
+    padding: 20px 32px;
+    border: solid 3px #FF887B;
+    border-radius: 5px;
+    cursor: pointer;
+    position: relative;
+    display: inline-block;
+    transition: .2s ease-out;
+    text-align: center;
+    font-family: 'Press Start 2P', cursive;
+  }
+  
+  .blue {
+    background-color: #7bcaff;
+    color: #fff;
+    transition: .2s ease-out;
+  }
+  .blue:hover {
+    background-color: #fff;
+    color: #7bcaff;
+  }
+
+  @media (max-width: 767px) {
+    .my-button {
+      font-size: .8em;
+    }
+  }

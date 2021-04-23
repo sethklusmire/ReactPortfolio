@@ -39,14 +39,10 @@ class NavBar extends React.Component {
     return (
       <header className='navbar'>
         <div className='navbar-container'>
-          <Link to='/' className='nav-logo'>
-            <h2 className='nav-logo-text'>sk</h2>
-          </Link>
           <nav className='nav-container'>
             <ul className='right-nav-items'>
               {this.buildLink('/', 'Home')}
               {this.buildLink('/projects', 'Projects')}
-              {this.buildLink('/about', 'About')}
               {this.buildLink('/contact', 'Contact')}
             </ul>
             <div className={this.state.showMobileMenu ? 'hamburger-container change' : 'hamburger-container'} onClick={this.toggleMobileMenu}>
@@ -60,7 +56,6 @@ class NavBar extends React.Component {
           <ul className='mobile-items'>
             {this.buildMobileLink('/', 'Home')}
             {this.buildMobileLink('/projects', 'Projects')}
-            {this.buildMobileLink('/about', 'About')}
             {this.buildMobileLink('/contact', 'Contact')}
           </ul>
         </div>

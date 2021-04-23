@@ -1,0 +1,84 @@
+.inner-project {
+    border-top: 2px solid #b9b9b9;
+    animation: .4s ease-out 0s 1 slideInFromBottom;
+  }
+  .project-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .image-container-left {
+    margin-right: 60px;
+  }
+  .image-container-right {
+    margin-left: 60px;
+  }
+  .web-container {
+    width: 50%;
+  }
+  .project-description-container {
+    width: 50%;
+  }
+  .project-title {
+    font-size: 1.8em;
+    font-weight: bold;
+    font-family: 'Press Start 2P', cursive;
+  }
+  .project-text {
+    line-height: 35px;
+    margin-top: 20px;
+    font-size: 1.3em;
+    color: #474747;
+  }
+  .project-list-container {
+    margin-top: 40px;
+  }
+  .project-list-item {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+  }
+  .project-list-text {
+    margin-left: 10px;
+  }
+
+  .project-button {
+    margin-top: 40px;
+    margin-right: 20px;
+  }
+  @media (max-width: 767px) {
+    .project-content {
+      flex-direction: column;
+    }
+    .image-container-left {
+      margin-right: 0px;
+    }
+    .image-container-right {
+      margin-left: 0px;
+    }
+    .web-container {
+      width: 100%;
+    }
+    .project-title {
+      font-size: 1.2em;
+      margin-top: 40px;
+    }
+    .project-description-container {
+      order: 2;
+      margin-left: 0px;
+      width: 92%;
+    }
+    .project-description-container button:nth-child(1n) {
+      width: 100%;
+      padding: 16px 16px;
+      margin-top: 10px;
+    }
+    .project-text {
+      line-height: 30px;
+      font-size: 1em;
+    }
+    
+    .project-list-container {
+      margin: 40px 0;
+    }
+  }
