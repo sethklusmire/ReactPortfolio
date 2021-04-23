@@ -48,7 +48,7 @@ class ProjectSection extends React.Component {
               </div>
               {this.props.children[1]}
               <a href={this.props.repoLink || '/'}><MyButton title='View Git Repo' theme='blue' className='project-button'/></a>
-              {this.props.liveLink ? <a href={this.props.liveLink || '/'}><MyButton title='View Live Site' theme='white' className='project-button'/></a> : null}
+              {this.props.liveLink ? <a href={this.props.liveLink || '/'}><MyButton title='View Live Site' theme='blue' className='project-button'/></a> : null}
             </article>
             {this.props.direction === 'right' ? this.renderDirection() : null}
           </div>
