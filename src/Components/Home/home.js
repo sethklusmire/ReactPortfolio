@@ -14,6 +14,7 @@ const Home = () => {
         src="./FYB_finals5-copy.PNG"
         direction="right"
         repoLink="https://github.com/sethklusmire/BeanTeam"
+        liveLink="https://feed-your-bean.herokuapp.com/"
         mobile={true}
       >
         Feed your Bean is an application that helps users learn more about the

@@ -33,7 +33,7 @@ class ContactForm extends React.Component {
             <textarea className='text-field form-field' required disabled/>
           </div>
         </div>
-        <MyButton title='Submit' theme='red' className='submit-form' onClick={this.click}/>
+        <MyButton title='Submit' theme='blue' className='submit-form' onClick={this.click}/>
       </form>
     )
   }
