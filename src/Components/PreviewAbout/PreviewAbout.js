@@ -12,7 +12,7 @@ class PreviewAbout extends React.Component {
             <h1 className="profile-title">My name is Seth Klusmire</h1>
             <h2 className="profile-subtitle">I make web applications</h2>
             <p className="profile-text">
-              I've always found myself around computers much like many
+              I've always found myself around computers, much like many
               millennials. I built my first computer freshmen year of highschool
               and have been tinkering with the hardware ever since. I attended
               Colorado State University and received a Bachelor's of Art in
@@ -43,7 +43,7 @@ class PreviewAbout extends React.Component {
             <br />
             <div className="body">
               <div className="screen">
-                <img src="./profilepic.JPG" alt="" className="profile-image" />
+                <img src="./profilepic2.JPG" alt="" className="profile-image" />
               </div>
             </div>
           </div>

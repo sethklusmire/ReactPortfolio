@@ -11,7 +11,7 @@ const Home = () => {
       <ProjectSection
         className="featured-project"
         title="Feed Your Bean"
-        src="./FYB_finals5-copy.PNG"
+        src="./FYB_finals2(2).PNG"
         direction="right"
         repoLink="https://github.com/sethklusmire/BeanTeam"
         liveLink="https://feed-your-bean.herokuapp.com/"

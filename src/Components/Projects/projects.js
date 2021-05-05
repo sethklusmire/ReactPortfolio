@@ -10,7 +10,7 @@ class Projects extends React.Component {
         <TabHeader title="Projects" subtitle="Things I've been working on" />
         <ProjectSection
           title="Feed Your Bean"
-          src="./FYB_finals5-copy.PNG"
+          src="./FYB_finals2(2).PNG"
           direction="left"
           repoLink="https://github.com/sethklusmire/BeanTeam"
           liveLink="https://feed-your-bean.herokuapp.com/"
@@ -38,7 +38,7 @@ class Projects extends React.Component {
         <ProjectSection
           title="Quiet Sands: A New Years Resolution Helper"
           direction="right"
-          src="./ScreenShot (30).png"
+          src="./quiet-sands.png"
           repoLink="https://github.com/sethklusmire/Quiet-Sands"
           liveLink="https://quiet-sands-70711.herokuapp.com/"
           web={true}
@@ -63,7 +63,7 @@ class Projects extends React.Component {
         <ProjectSection
           title="An Employee Template Generator"
           direction="left"
-          src="./employee.png"
+          src="./Screenshot (29).png"
           web={true}
           repoLink="https://github.com/sethklusmire/EmployeeTemplateGenerator"
         >
